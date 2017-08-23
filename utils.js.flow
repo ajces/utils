@@ -1,4 +1,4 @@
-declare module "utils" {
+declare module "@ajces/utils" {
   declare export function isDev(): boolean;
   declare export function isServer(): boolean;
   declare export function randomString(length: number): string;
