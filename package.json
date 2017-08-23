@@ -1,6 +1,6 @@
 {
   "name": "@ajces/utils",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "general purpose helpers for ajces projects...",
   "main": "src/index.js",
   "scripts": {
