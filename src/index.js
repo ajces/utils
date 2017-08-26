@@ -3,7 +3,12 @@ export function isDev() {
 }
 
 export function isServer() {
-  return process.env.BUILD_TARGET === "server";
+  return (
+    typeof process !== "undefined" &&
+    process.release != null &&
+    (process.release.name.search(/node|io.js/) !== -1 ||
+      typeof process.versions.node !== "undefined")
+  );
 }
 
 export function randomString(length) {
