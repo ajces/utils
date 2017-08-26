@@ -1,6 +1,6 @@
 {
   "name": "@ajces/utils",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "general purpose helpers for ajces projects...",
   "main": "dist/utils.js",
   "files": [
